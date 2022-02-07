@@ -1,0 +1,22 @@
+REFINEMENTS- 
+0. need to allow number and bool variables 𝒽𝒶𝓁𝒻 𝒅𝒐𝒏𝒆 𝒂𝒏𝒅 𝒍𝒊𝒈𝒉𝒕𝒍𝒚 𝒅𝒖𝒔𝒕𝒆𝒅 𝒅𝒐𝒏𝒆 𝒂𝒏𝒅 𝒍𝒊𝒈𝒉𝒕𝒍𝒚 𝒅𝒖𝒔𝒕𝒆𝒅;
+
+1. need to make the program run any function it sees in the order it sees them (line by line execution and not finding all te prints first, then all the varibales first, etc) 𝒅𝒐𝒏𝒆 𝒂𝒏𝒅 𝒍𝒊𝒈𝒉𝒕𝒍𝒚 𝒅𝒖𝒔𝒕𝒆𝒅;
+
+2. need to allow "say(variable name)";
+
+3. need to allow the program to do basic aritmetic; 
+
+4. need to play around with the syntax of the program so its not just python2.0; 
+
+5. need to restrict it to one command per line 𝒅𝒐𝒏𝒆 𝒂𝒏𝒅 𝒍𝒊𝒈𝒉𝒕𝒍𝒚 𝒅𝒖𝒔𝒕𝒆𝒅;
+
+6. need to allow the program to store viariable names in an array to see if theyve been run or called at any point;
+
+7.add the quotation marks for people to specify that its a string 𝒅𝒐𝒏𝒆 𝒂𝒏𝒅 𝒍𝒊𝒈𝒉𝒕𝒍𝒚 𝒅𝒖𝒔𝒕𝒆𝒅;
+
+8. need to allow the program to tell between variables entered with quotes and not with for ones that arent numbers
+9. need to finish this so that it doesnt allow for duplicate variables(quite easy just dont have time)
+I HAVENT EVEN GOTTEN ONTO OTHER FUNCTIONS YET
+
+##most important refinement is making the isvar/issay lines check which comes first and ONLY RRUN THE FIRST COMMAND ON EACH LINE 𝒅𝒐𝒏𝒆 𝒂𝒏𝒅 𝒍𝒊𝒈𝒉𝒕𝒍𝒚 𝒅𝒖𝒔𝒕𝒆𝒅;
