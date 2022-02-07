@@ -4,8 +4,8 @@ say("two say statements")say("two statements")
 say("Say statement and variable statement in the same line") var(num1,2)
 var(num,012)
 var(num_alpha,"012")
-var(num_float,0.21)
-var(word,old string)
+var(num_float,0.41)
+var(word,old stringy)
 var(word,"new string") #changing a variable's value
 say(variable statement and say statement in the same line)
 say(invalid syntax) #will crash the program and everything under wont run
