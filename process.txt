@@ -1,0 +1,17 @@
+For each line, check for a command. 
+If it finds a command in that line, run it and immediately move on to the next line.
+if not, display error message.
+
+2.1 if the command is a say(), check if say is valid. print if true
+2.2 if the command is a var(), check if var is valid. store if true
+
+2.1.1 if there are quotes, print whateber is in 'em
+2.1.2 If there arent any, check if the text is the name of a variables
+
+2.1.2.1 If it is, then print the content of the variable, if not, NO_VAR_ERROR
+
+2.2.1 If word in varlist, just change the value.
+2.2.2 If the word isnt in varlist, make a new variable with that word and value
+
+2.2.2.1 if the value has quotes, make the val a string
+2.2.2.2 elif the value does not, then check if you can make it an int, if not, a float, then if none of those, val_error.
