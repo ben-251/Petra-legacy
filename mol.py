@@ -14,16 +14,6 @@ def make_string(line,open_position,string):
 			#if is_in_var(string):#well not variables, the first variable in each	
 			return -1
 
-'''
-def is_in_var(string):
-	variable_names = []
-	for i in variables:
-		variable_names.append(i[0])
-	if string in variable_names:
-		return True
-	else:
-		return False
-'''
 def run_prints(line,line_count):	#A: good candidate for some inversion b: yup
 	
 	open_position = line.find("say(")	
@@ -133,6 +123,13 @@ def is_say(line):
 	else:
 		return False,open_position
 variables = [] 
+
+def prerun(file):
+	with open(file,"r") as f:
+		line_count = 0
+		for line in f:
+			#check if legal	
+			return
 
 def run(file):#A: Make sure you've got whitespaces between functions b: gahhh
 	with open(file,"r") as f:
